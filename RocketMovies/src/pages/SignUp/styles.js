@@ -40,6 +40,7 @@ export const Form = styled.form`
     font-size: 16px;
     color: ${({ theme }) => theme.COLORS.PINK};
   }
+
 `
 export const Background = styled.div`
   flex: 1;
