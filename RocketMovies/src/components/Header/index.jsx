@@ -15,12 +15,14 @@ export function Header({ title, ...rest }){
        
       <Profile to='/profile'>
         
-      <img src="https://github.com/Ale-Macedo.png" alt="Foto do usuário" />
         
       <div>
         <strong>Alessandro Macedo</strong>
         <a href="#">sair</a>
       </div>  
+     
+      <img src="https://github.com/Ale-Macedo.png" alt="Foto do usuário" />
+     
       </Profile>
     </Container>
   )

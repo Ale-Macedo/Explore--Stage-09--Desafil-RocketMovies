@@ -17,7 +17,7 @@ export const Container = styled.div`
 
   background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
 
-  border: 1px solid red;
+  border-bottom: 1px solid ${({ theme})=> theme.COLORS.GRAY_250} ;
 
 
   > h1 {
@@ -43,13 +43,15 @@ export const Profile = styled.div`
   } 
 
   > div {
-   
+    
+    height: 36px;
+
     display: flex;
     flex-direction: column;
     line-height: 18px;
-    
+    text-align: right;
     strong {
-      font-size: 18px;
+      font-size: 14px;
       color: ${({ theme }) => theme.COLORS.WHITE};
     
     }
