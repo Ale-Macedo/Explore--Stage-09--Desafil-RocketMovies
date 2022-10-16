@@ -1,5 +1,7 @@
 import { Container, Form } from './styles';
 
+import { Link } from 'react-router-dom';
+
 import { FiArrowLeft } from "react-icons/fi";
 
 import { Header } from '../../components/Header'
@@ -13,7 +15,7 @@ export function New(){
       <Header/>
       <main>
         <header>
-          <a href="#"> <FiArrowLeft/> Voltar </a>
+          <Link to="/"> <FiArrowLeft/> Voltar </Link>
           <h1>Novo Filme</h1>
         </header>
         

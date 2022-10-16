@@ -1,5 +1,7 @@
 import { Container, Content } from './styles';
 
+import { Link } from 'react-router-dom';
+
 import { Header } from '../../components/Header'
 import { Note } from '../../components/Note'
 
@@ -12,7 +14,7 @@ export function Home(){
       <main>
         <header>
           <h1>Meus filmes</h1>
-          <a href="#"> <FiPlus/> Adicionar filme</a>
+          <Link to="/new"> <FiPlus/> Adicionar filme</Link>
         </header>
         <Content>
         <Note
